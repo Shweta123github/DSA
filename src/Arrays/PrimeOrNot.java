@@ -1,4 +1,4 @@
-package CodesPractice;
+package Arrays;
 
 import java.util.Scanner;
 
