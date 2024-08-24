@@ -29,5 +29,5 @@ public class RemoveDuplicatefromsortedarray {
 //1 2 3
 }
 */
-
+}
 //optimal-->two pointers  tc-->n sc-->1 leetcode
