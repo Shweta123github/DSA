@@ -55,5 +55,5 @@ public class PrintDivisorsofNumber {
         System.out.println();
     }
 }
-
+//Divisors of 12 are: 1 12 2 6 3 4
 
