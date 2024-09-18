@@ -94,3 +94,6 @@ public static void main(String args[]) {
     System.out.println("The duplicate element is " + trap(arr));
 }
 }
+
+//prefixsum ---> 1 1 1 1
+//1 2 3 4
