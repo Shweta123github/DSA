@@ -10,6 +10,7 @@ public class RodCuttingProblem {
     public static int f(int ind, int N, int[] price, int[][] dp) {
         // Base case: if we are at index 0
         //N= rodlength
+        //rahilel length mdhe kiti cost nighel te det ahe suppose n=3 and price[0]=2 so 3*2=6 as
         if (ind == 0) {
             return N * price[0];
         }
