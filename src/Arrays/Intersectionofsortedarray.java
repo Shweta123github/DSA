@@ -85,3 +85,4 @@ public class Intersectionofsortedarray {
 
     }
 }
+//3 3 4 5

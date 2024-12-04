@@ -2,6 +2,7 @@ package Arrays.Medium;
 
 import java.util.HashMap;
 
+//find the number which come more than n/2 times that will be the o/p.
 //brute-->tc-->n^2  sc-->1
 public class MajorityElementnby2times {
 
@@ -75,3 +76,27 @@ public class MajorityElementnby2times {
 //optimal --->Moore’s Voting Algorithm:  tc-->n+n  sc-->1
 
 }
+//class Solution {
+//    public int majorityElement(int[] nums) {
+//        int n=nums.length;
+//        int elememt=0;
+//        int count=0;
+//        for(int i=0;i<n;i++){
+//            if(count==0){
+//                count=1;
+//                elememt=nums[i];
+//            }else if(elememt==nums[i]) count++;
+//            else count--;
+//        }
+//        int count1=0;
+//        for(int i=0;i<n;i++){
+//            if(elememt==nums[i]){
+//                count1++;
+//            }
+//        }
+//        if(count1>(n/2)) {
+//            return elememt;
+//        }
+//        return -1;
+//    }
+//}

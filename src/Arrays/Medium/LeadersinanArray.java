@@ -2,7 +2,8 @@ package Arrays.Medium;
 
 import java.util.ArrayList;
 import java.util.Collections;
-//leader means other elements on right side are greater
+//leader means other elements on right side are greater (right to left jaych) leader means right wal
+// element mdhe toch motha pahije
 //better-->tc-->n^2  sc-->n
 public class LeadersinanArray {
  /*   public static ArrayList<Integer>
@@ -93,3 +94,4 @@ public class LeadersinanArray {
 
     }
 }
+//22 12 6

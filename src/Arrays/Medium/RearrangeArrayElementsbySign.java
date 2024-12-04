@@ -5,6 +5,7 @@ import java.util.ArrayList;
 //tc-->O(N+N/2)   O(N) for traversing the array once for segregating positives and negatives and another O(N/2) for adding those elements alternatively to the array, where N = size of the array A}.
 //sc--->O(N/2 + N/2) = O(N) { N/2 space required for each of the positive and negative element arrays,
 // where N = size of the array A}.
+
 //Variety-1--->equal postive and negative
 public class RearrangeArrayElementsbySign {
  /*   public static int[] RearrangebySign(int[] A, int n){
@@ -158,3 +159,4 @@ public class RearrangeArrayElementsbySign {
         return A;
     }
 }
+//1 -4 2 -5 3 4

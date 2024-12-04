@@ -47,3 +47,27 @@ public class MaxProductSubarrayinanArray {
 
 
 //optimal -->leetcode -->kanade -->tc-->n sc-->1 ---152
+class Solution {
+    public int maxProduct(int[] nums) {
+        int prod1 = nums[0],prod2 = nums[0],result = nums[0];
+
+
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] < 0) {
+                // Swap prod1 and prod2 when nums[i] is negative
+                int temp = prod1;
+                prod1 = prod2;
+                prod2 = temp;
+            }
+
+            // Calculate the maximum and minimum product up to the current index
+            prod1 = Math.max(nums[i], prod1 * nums[i]);
+            prod2 = Math.min(nums[i], prod2 * nums[i]);
+
+
+            // Update the result with the maximum product found so far
+            result = Math.max(result, prod1);
+        }
+        return result;
+    }
+}

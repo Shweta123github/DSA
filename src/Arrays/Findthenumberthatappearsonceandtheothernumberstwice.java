@@ -54,15 +54,15 @@ public class Findthenumberthatappearsonceandtheothernumberstwice {
     // Find the maximum element:
     int maxi = arr[0];
     for (int i = 0; i < n; i++) {
-        maxi = Math.max(maxi, arr[i]);
+        maxi = Math.max(maxi, arr[i]);//4
     }
 
-    // Declare hash array of size maxi+1
+    // Declare hash array of size maxi+1 hash = {0, 0, 0, 0, 0}
     // And hash the given array:
     int[] hash = new int[maxi + 1];
     for (int i = 0; i < n; i++) {
         hash[arr[i]]++;
-    }
+    }//hash = {0, 2, 2, 0, 1}
 
     //Find the single element and return the answer:
     for (int i = 0; i < n; i++) {

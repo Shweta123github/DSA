@@ -119,3 +119,26 @@ public class KadanesAlgorithmMaximumSubarraySuminanArray {
 //The maximum subarray sum is: 6
 
 //optimal --->tc-->n sc-->1  leetcode   op-->6
+
+class Solution {
+    public int maxSubArray(int[] nums) {
+        int n=nums.length;
+        int maxi=Integer.MIN_VALUE;
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum=sum+nums[i];
+
+            if(sum>maxi){
+                maxi=sum;
+            }
+
+            //small -value will not increased
+            if(sum<0){
+                sum=0;
+            }
+        }
+        return maxi;
+
+
+    }
+}
