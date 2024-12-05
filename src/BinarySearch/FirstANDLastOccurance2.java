@@ -26,7 +26,7 @@ package BinarySearch;
         System.out.println("First occurrence: " + ans[0]);
         System.out.println("Last occurrence: " + ans[1]);
     }
-    }//3,4
+    }//3,5
 */
 
 //optimal --->binary search(lower and uppear bound)  tc --->log n sc --->1
@@ -143,13 +143,13 @@ package BinarySearch;
 
         System.out.println(result[0] + "," + result[1]);
     }
-}
+}3,4
 */
 
 //count occurance of given number
 
 
-public class FirstANDLastOccurance {
+public class FirstANDLastOccurance2 {
 
     // Find the index of the first occurrence of k
     public static int firstOccurrence(int[] arr, int n, int k) {
@@ -216,7 +216,8 @@ public class FirstANDLastOccurance {
         int count = countOccurrences(arr, n, k);
         System.out.println("Count of " + k + ": " + count);
     }
-}
+}//3 4
+//count =2
 //*/
 
 

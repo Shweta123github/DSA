@@ -2,10 +2,9 @@ package BinarySearch;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
 
 //brute --->tc-->n sc-->1
-public class SearchSingleElements {
+public class SearchSingleElements6 {
 
      public static int single(ArrayList<Integer> arr, int n) {
             if (n == 1) {

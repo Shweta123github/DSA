@@ -21,7 +21,7 @@ package BinarySearch;
     }//4
 }*/
 
-public class HowManyTimeArrayRotated {
+public class HowManyTimeArrayRotated5 {
 
     public static int findrotation(int arr[],int n) {
         int low = 0;

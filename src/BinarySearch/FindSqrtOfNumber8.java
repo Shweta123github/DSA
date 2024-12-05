@@ -1,6 +1,6 @@
 package BinarySearch;
 //brute--->tc-->n sc--->1
-public class FindSqrtOfNumber {
+public class FindSqrtOfNumber8 {
 public static int square(int n){
     int ans=0;
     for(long i=1;i<=n;i++){

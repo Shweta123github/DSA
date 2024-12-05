@@ -21,8 +21,9 @@ package BinarySearch;
 }
 */
 //optimal ---> tc---> o(log n) sc--->1     binary search
+//if want smallest index eleminate right side and came to right with high as high la mid ch adhi thev
 
-public class LowerUppearBound {
+public class LowerUppearBound1 {
 
     public static int lowerbound(int arr[], int n, int x) {
         int low = 0;
@@ -47,7 +48,8 @@ public class LowerUppearBound {
         int x = 9;
         int index = lowerbound(arr, n, x);
         System.out.println(index);
-    }//3
+    }// lower bound index(means 8 ch nantr 9 yenar) =3
+    //uppear bound means greater =3
 }
 //*/
 

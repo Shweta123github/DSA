@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 //brute-->n sc--->1
-public class PeakElement {
+public class PeakElement7 {
 
     public static int findpeak(ArrayList<Integer>arr)
     {int n=arr.size();

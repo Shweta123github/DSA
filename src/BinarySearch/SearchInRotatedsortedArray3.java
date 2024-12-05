@@ -1,7 +1,5 @@
 package BinarySearch;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 //unique elements
 //brute ---> tc---> n sc-->1  linear search
 /*public class SearchInRotatedsortedArray {
